@@ -1003,20 +1003,19 @@ to0pt{\kern0.55\wd0\vrule height0.45\ht0\hss}\box0}}}}
  \let\newline\\
  {\Large \bfseries\boldmath
   \pretolerance=10000
-  \@title \par}\vskip .8cm
+  \@title \par}\vskip .5cm
 \if!\@subtitle!\else {\large \bfseries\boldmath
   \vskip -.65cm
   \pretolerance=10000
-  \@subtitle \par}\vskip .8cm\fi
+  \@subtitle \par}\vskip .3cm\fi
  \setbox0=\vbox{\setcounter{@auth}{1}\def\and{\stepcounter{@auth}}%
  \def\thanks##1{}\@author}%
  \global\value{@inst}=\value{@auth}%
  \global\value{auco}=\value{@auth}%
  \setcounter{@auth}{1}%
-{\lineskip .5em
+{
 \noindent\ignorespaces
-\@author\vskip.35cm}
- {\small\institutename}
+\@author}
  \end{center}%
  }
 
